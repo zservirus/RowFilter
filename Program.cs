@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Программа фильрование строк
 Console.WriteLine("Hello, World!");
