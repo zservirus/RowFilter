@@ -20,7 +20,7 @@ namespace RowsFilter
             int count = 0;
             for (int i = 0; i < arrayRow.Length; i++)
             {
-                if (arrayRow[i].Length <= 3 ){ count = count + 1; }
+                if (arrayRow[i].Length <= 3) { count++; }
             }
             string[] arrayFilter = new string [count];
             int indexArrayFilter = 0;
